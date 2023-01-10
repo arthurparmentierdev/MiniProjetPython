@@ -29,6 +29,6 @@ Les librairies nécessaires sont disponibles dans le fichier **requirement.txt**
 
 - Sauvegarder / Restaurer un corpus
 - Nettoyer un texte et le découper en mots
-- Afficher le concorde d'un mot et des stats sur celui-ci par rapport au Corpus 
+- Afficher le concordancier d'un mot et des stats sur celui-ci par rapport au Corpus 
 - Calcul de matrice TF, TF-IDF et de similarité du cosinus
 
