@@ -181,6 +181,7 @@ id2doc = dict()
 cor2 = Corpus.Corpus("C2", id2auth, id2doc, len(id2doc), len(id2auth))
 # On charge le corpus déjà disponible
 cor2 = cor2.load("corpus.pkl")
+cor2.remplir_voc()
 
 # On recupere le vocabulaire du corpus
 vocab = cor2.getVocab()
